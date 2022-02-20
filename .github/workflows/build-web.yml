@@ -10,7 +10,7 @@ name: Deno
 
 on:
   schedule:
-    - cron: "05,20,35,50 * * * *"
+    - cron: "05 * * * *"
   push:
     branches: [main]
   pull_request:
@@ -39,5 +39,5 @@ jobs:
           git config user.name Github Actions
           git config user.email actions@github.com
           git add .
-          git commit --amend --no-edit
-          git push -f
+          git commit -m "Add new build"
+          git push

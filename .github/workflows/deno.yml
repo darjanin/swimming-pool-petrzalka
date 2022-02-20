@@ -39,5 +39,5 @@ jobs:
           git config user.name Github Actions
           git config user.email actions@github.com
           git add .
-          git commit --amend --no-edit
-          git push -f
+          git commit -m "Add record"
+          git push
