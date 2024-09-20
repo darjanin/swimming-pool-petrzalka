@@ -9,8 +9,8 @@
 name: Deno
 
 on:
-#   schedule:
-#     - cron: "00,15,30,45 * * * *"
+  schedule:
+    - cron: "00,15,30,45 * * * *"
 #   push:
 #     branches: [main]
 #   pull_request:
